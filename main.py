@@ -4,7 +4,7 @@ def get_book_text(filepath):
     return text
     
 def main():
-    filepath = input("Please insert your relative filepath: ")
+    filepath = ("books/frankenstein.txt")
     book = get_book_text(filepath)
     print(book)
 
